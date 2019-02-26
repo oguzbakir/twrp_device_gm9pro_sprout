@@ -46,35 +46,35 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=1 androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-BOARD_KERNEL_CMDLINE += skip_override
-BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_PAGESIZE    := 4096
-BOARD_KERNEL_TAGS_OFFSET := 0x00000100
-BOARD_RAMDISK_OFFSET     := 0x01000000
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/zImage
+#BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=1 androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3
+#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+#BOARD_KERNEL_CMDLINE += skip_override
+#BOARD_KERNEL_BASE := 0x00000000
+#BOARD_KERNEL_PAGESIZE    := 4096
+#BOARD_KERNEL_TAGS_OFFSET := 0x00000100
+#BOARD_RAMDISK_OFFSET     := 0x01000000
+#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/zImage
 
 # Partitions
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x04000000
-BOARD_FLASH_BLOCK_SIZE := 131072
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x04000000
+#BOARD_FLASH_BLOCK_SIZE := 131072
 
-BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
-BOARD_USES_RECOVERY_AS_BOOT := true
-BOARD_HAS_REMOVABLE_STORAGE := true
+#BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
+#BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+#BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
+#BOARD_USES_RECOVERY_AS_BOOT := true
+#BOARD_HAS_REMOVABLE_STORAGE := true
 
-BOARD_SUPPRESS_SECURE_ERASE := true
+#BOARD_SUPPRESS_SECURE_ERASE := true
 
-TARGET_USERIMAGES_USE_EXT4 := true
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+#TARGET_USERIMAGES_USE_EXT4 := true
+#BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Recovery
-TARGET_RECOVERY_WIPE := $(LOCAL_PATH)/recovery/root/etc/recovery.wipe
+#TARGET_RECOVERY_WIPE := $(LOCAL_PATH)/recovery/root/etc/recovery.wipe
 
-BOARD_HAS_LARGE_FILESYSTEM := true
-BOARD_HAS_NO_SELECT_BUTTON := true
+#BOARD_HAS_LARGE_FILESYSTEM := true
+#BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor

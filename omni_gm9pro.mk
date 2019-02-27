@@ -44,8 +44,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_gm9pro_sprout
-PRODUCT_DEVICE := gm9pro_sprout
-PRODUCT_BRAND := General Mobile
+PRODUCT_NAME := omni_gm9pro
+PRODUCT_DEVICE := gm9pro
+PRODUCT_BRAND := Android
 PRODUCT_MODEL := gm9pro
-PRODUCT_MANUFACTURER := General Mobile
+PRODUCT_MANUFACTURER := GeneralMobile

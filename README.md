@@ -1,4 +1,4 @@
-Common device configuration for Android One Third Generation
+Device configuration for General Mobile GM9 Pro Device
 ============================================================
 Basic   | Spec Sheet
 -------:|:-------------------------

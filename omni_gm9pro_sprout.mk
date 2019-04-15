@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_gm9pro
+PRODUCT_NAME := omni_gm9pro_sprout
 PRODUCT_DEVICE := gm9pro
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := gm9pro

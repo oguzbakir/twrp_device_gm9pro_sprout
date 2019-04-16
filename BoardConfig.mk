@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/google/gm9pro
+LOCAL_PATH := device/google/gm9pro_sprout
 
 # Architecture
 TARGET_ARCH := arm64

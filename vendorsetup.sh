@@ -1,1 +1,1 @@
-add_lunch_combo omni_gm9pro-eng
+add_lunch_combo omni_gm9pro_sprout-eng
